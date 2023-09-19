@@ -6,8 +6,8 @@ import BooksPage from './components/booksPage';
 
 function App() {
   return (
-    
-    
+    <>
+    <div className='title'><h1>LIBRARY MANAGEMENT SYSTEM</h1></div>
     <BrowserRouter>
     <div className="App">
       
@@ -22,7 +22,7 @@ function App() {
       
     </div>
     </BrowserRouter>
-    
+    </>
   );
 }
 
